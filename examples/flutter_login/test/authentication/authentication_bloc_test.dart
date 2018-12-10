@@ -37,7 +37,7 @@ void main() {
     });
   });
 
-  group('LoggedIn', () {
+  group('Login', () {
     test('emits [initializing, loading, authenticated] when token is persisted',
         () {
       final expectedResponse = [
@@ -57,7 +57,7 @@ void main() {
     });
   });
 
-  group('LoggedOut', () {
+  group('Logout', () {
     test('emits [initializing, loading, unauthenticated] when token is deleted',
         () {
       final expectedResponse = [
